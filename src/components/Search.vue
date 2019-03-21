@@ -14,7 +14,9 @@
       <label for="movie">Movies</label>
       <input @click="search()" type="radio" id="series" value="series" v-model="type">
       <label for="series">Series</label>
-      <button @click="randomMovie()">Random</button>
+    </div>
+    <div class="radio-buttons random">
+    <button @click="randomMovie()">Show a Random Movie</button>
     </div>
   </div>
 </template>
